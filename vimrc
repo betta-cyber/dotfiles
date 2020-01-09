@@ -676,3 +676,6 @@ highlight SpellLocal term=underline cterm=underline
 " nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 "
 let g:ycm_rust_src_path = '/home/betta/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/'
+
+let g:mkdp_echo_preview_url = 1
+let g:mkdp_page_title = '「${name}」'
